@@ -2,7 +2,7 @@ import React from "react";
 import LongCard from "./LongCard";
 import "./home.css";
 
-const ElaborateServices = () => {
+const ElaborateServices = (props) => {
   return (
     <div className="text-center py-[40px]">
       <LongCard
@@ -12,6 +12,7 @@ const ElaborateServices = () => {
         rev="0"
         img="/landing-2.webp"
         alt="Save Money, Choose COD for extra savings"
+        func={props.func}
       />
       <LongCard
         title="Save Time"
@@ -20,6 +21,7 @@ const ElaborateServices = () => {
         rev="1"
         img="/landing-3.webp"
           alt="Order in 2-clicks, set daily quantities"
+          func={props.func}
       />
       <LongCard
         title="Save Your Business"
@@ -28,6 +30,7 @@ const ElaborateServices = () => {
         rev="0"
         img="/landing-4.webp"
         alt="No more out of stock for your menu"
+        func={props.func}
       />
     </div>
   );

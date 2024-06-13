@@ -99,7 +99,7 @@ const Home = () => {
       {/*Track Record*/}
       <TrackRecord/>  
       {/* Elaborate Services */}
-      <ElaborateServices handleHover={handleHover}/>
+      <ElaborateServices func={handleClick}/>
       <div className="scroller bg-slate-300">
         <ul className="scroller-inner text-cus-brand">
           <li>

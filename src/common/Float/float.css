@@ -1,0 +1,48 @@
+.float{
+    position: fixed;
+    z-index: 10000000;
+    bottom: 1.5em;
+    right: 3em;
+    border-radius: 10%;
+    border: 1px solid #25D366;
+    padding: 0.2em;
+    align-items: center;
+    text-align: center;
+    background-color: #25D366;
+    cursor: pointer;
+}
+.bounce{
+    animation: bounce 0.3s linear infinite;
+}
+@keyframes bounce{
+    20%, to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    65%{
+        transform: translateY(-15px);
+    }
+    85%{
+        transform: translateY(-5px);
+    }
+}
+/* @keyframes bounce{
+    33%{
+        transform: rotate(10deg);
+    }
+    66%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+} */
+@media screen and (max-width: 479px)
+{
+    .float{
+        bottom: 1.8em;
+        right: 1.4em;
+    }
+}

@@ -1,0 +1,8 @@
+.cards img{
+    border-radius: 3em;
+    width: 15em;
+    height: 15em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}

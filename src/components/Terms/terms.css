@@ -1,0 +1,9 @@
+.bullet-list{
+    list-style-type: disc;
+    padding: 10px 20px;
+}
+.bullet-list li{
+    letter-spacing: -0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+}

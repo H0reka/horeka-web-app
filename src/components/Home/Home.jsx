@@ -74,14 +74,15 @@ const Home = () => {
               <span className="text-cus-brand font-semibold">Horeka.app</span>.
             </motion.p>
             <div className="button-wrapper  opacity-100">
-              <motion.button
+              <motion.a
                 variants={item}
                 className="btn"
-                onClick={() => handleClick()}
+                target='__blank' 
+                href=" https://api.whatsapp.com/send?phone=9606150255"
                 onMouseEnter={handleHover}
               >
                 Get in Touch
-              </motion.button>
+              </motion.a>
             </div>
             <div className="landing-one-line  opacity-100">
               <motion.div variants={item}>

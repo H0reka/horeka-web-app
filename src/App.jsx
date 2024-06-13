@@ -11,12 +11,12 @@ import Error from './common/Error/Error';
 import Footer from './components/Footer/Footer';
 import Float from './common/Float/Float';
 import ScrollToTop from './ScrollToTop';
-// import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
 import Terms from './components/Terms/Terms';
 import './App.css'
 
-// const TRACKING_ID = "";
-// ReactGA.initialize(TRACKING_ID);
+const TRACKING_ID = "G-7EZGHYSE87";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (

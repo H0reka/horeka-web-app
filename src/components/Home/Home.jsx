@@ -5,12 +5,18 @@ import WhatWeDo from './WhatWeDo'
 import TrackRecord from "./TrackRecord";
 import ElaborateServices from './ElaborateServices'
 import Banner from "../../common/Banner/Banner";
+import ReactGA from 'react-ga'
 import {motion} from 'framer-motion'
 
 const Home = () => {
   const ref = useRef(null);
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
+    ReactGA.event({
+      category: 'Get in Touch',
+      action: 'Clicked',
+      label: 'Contact Button'
+    });
   };
   const container = {
     hidden: { opacity: 0, x: -10 },
@@ -34,6 +40,13 @@ const Home = () => {
       }
     }
   }, [location]);
+  const handleHover = () => {
+    ReactGA.event({
+      category: 'Get in Touch',
+      action: 'Hover',
+      label: 'Contact Button'
+    });
+  };
   return (
     <>
         {/*Landing Section Content */}
@@ -65,6 +78,7 @@ const Home = () => {
                 variants={item}
                 className="btn"
                 onClick={() => handleClick()}
+                onMouseEnter={handleHover}
               >
                 Get in Touch
               </motion.button>
@@ -85,7 +99,7 @@ const Home = () => {
       {/*Track Record*/}
       <TrackRecord/>  
       {/* Elaborate Services */}
-      <ElaborateServices/>
+      <ElaborateServices handleHover={handleHover}/>
       <div className="scroller bg-slate-300">
         <ul className="scroller-inner text-cus-brand">
           <li>

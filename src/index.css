@@ -591,7 +591,8 @@ img {
     display: block;
   }
   .grid-5{
-    grid-template-rows: 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr; 
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 2em; 
     grid-template-columns: 1fr;
   }
   .brand.w--current {

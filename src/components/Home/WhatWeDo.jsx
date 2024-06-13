@@ -15,7 +15,7 @@ const WhatWeDo = () => {
             img="/file_2024-06-07_07.13.33.webp"
             // img="https://assets-global.website-files.com/6489e6bc11d0980ebc5de881/65072a34fa025b719179b5d4_Frame%2037030.png"
           />
-          <div className="line-con">
+          <div className="line-con hidden lg:flex">
             <div className=" line"></div>
           </div>
           <Card
@@ -24,7 +24,7 @@ const WhatWeDo = () => {
             img="/file_2024-06-07_07.13.21.webp"
             // img="https://assets-global.website-files.com/6489e6bc11d0980ebc5de881/65072a4585186409b5232e9e_Frame%2037034.png"
           />
-          <div className="line-con">
+          <div className="line-con hidden lg:flex">
             <div className="line"></div>
           </div>
           <Card

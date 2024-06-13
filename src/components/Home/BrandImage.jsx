@@ -3,8 +3,8 @@ import "./home.css";
 
 const BrandImage = () => {
   return (
-    <div className=" bg-cus-grey-orange py-[20px]  items-center justify-center text-center  ">
-      <div className="title-wrapper -z-10">
+    <div className=" bg-cus-grey-orange py-8 items-center justify-center text-center  ">
+      <div className="title-wrapper">
         <h2 className="text-cus-brand text-[1.5rem] font-medium">
           Trusted and loved by restaurants, cafes and organisations of all sizes
         </h2>

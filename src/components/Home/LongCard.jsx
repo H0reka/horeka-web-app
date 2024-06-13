@@ -27,7 +27,7 @@ const LongCard = (props) => {
             dangerouslySetInnerHTML={{ __html: props.content }}
           ></div>
           <div className="button-wrapper  opacity-100">
-            <button className="btn" onMouseEnter={handleHover} onClick={props.func}>Get in Touch</button>
+            <button className="btn" onMouseEnter={() => handleHover()} onClick={props.func}>Get in Touch</button>
           </div>
         </div>
       </div>

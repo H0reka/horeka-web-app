@@ -50,7 +50,7 @@ const Home = () => {
   return (
     <>
         {/*Landing Section Content */}
-      <header className="cus-header py-[20px]">
+      <header className="cus-header">
         <motion.div
           className="container-flex text-[15px]"
           variants={container}

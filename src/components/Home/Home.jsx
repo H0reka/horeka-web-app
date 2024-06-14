@@ -95,63 +95,14 @@ const Home = () => {
       </header>
       {/* Brand Images */}
       <BrandImage/>
-      {/*What we do */}
-      <WhatWeDo />
       {/*Track Record*/}
       <TrackRecord/>  
+      {/*What we do */}
+      <WhatWeDo />
       {/* Elaborate Services */}
       <ElaborateServices func={handleClick}/>
-      <div className="scroller bg-slate-300">
-        <ul className="scroller-inner text-cus-brand">
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-          <li>
-            We take full responsibility for our mistakes and are committed to
-            resolving them effectively and decisively.
-          </li>
-        </ul>
+      <div className="text-center">
+        <h1 className="text-cus-brand text-base">We take full responsibility for our mistakes and are committed to resolving them effectively and decisively.</h1>
       </div>
       <div ref={ref} id="banner-section">
         <Banner

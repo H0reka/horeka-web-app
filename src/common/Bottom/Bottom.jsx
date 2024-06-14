@@ -11,12 +11,12 @@ const Bottom = () => {
   };
 
   return (
-    <div id="Banner" className="banner">
+    <div id="Banner" className="bottom">
       <div className="banner-wrap">
+        <img src="/playstore.svg" className="h-4 mr-2" alt="" />
         <div className="notice-text">
-          We're launching our app very soon.{" "}
             <Link to="/#banner-section" onClick={scroll} className="white-link">
-              GET&nbsp;NOTIFIED
+              Get notified about our app release.
             </Link>
         </div>
       </div>

@@ -4,7 +4,7 @@ import './home.css'
 
 const WhatWeDo = () => {
   return (
-    <div className="relative py-[40px] px-[20px] justify-center content-center text-center">
+    <div className="bg-cus-grey-orange relative py-[40px] px-[20px] justify-center content-center text-center">
         <h1 className="text-[5vh] text-cus-brand  max-w-[100%] mb-14 ">
           Why Choose Horeka?
         </h1>

@@ -235,9 +235,9 @@ img {
   display: inline-block;
 }
 
-.banner {
+.bottom{
   z-index: 100000;
-  background-color: var(--brand);
+  background-color: black;
   color: #fff;
   background-image: url("https://assets-global.website-files.com/6489e6bc11d0980ebc5de881/6489e6bc11d0980ebc5de911_Banner%20Wave.svg");
   background-position: 0%;
@@ -245,7 +245,7 @@ img {
   background-size: contain;
   justify-content: center;
   align-items: center;
-  min-height: 32px;
+  min-height: 28px;
   padding: 5px 3%;
   font-size: 12px;
   display: flex;

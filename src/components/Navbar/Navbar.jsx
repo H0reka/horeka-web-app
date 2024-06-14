@@ -22,7 +22,7 @@ export default function Example() {
     initial={{ opacity: 0 }}
     transition={{ duration: 1}}
      id='navigate' className="bg-cus-white top-0  z-[1] fixed w-full transition ease-in-out duration-300 hover:shadow-sm hover:shadow-rose-50">
-      <nav className=" mx-auto  flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav className=" mx-auto  flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <NavLink to="/">
             <img className=" h-12 w-auto cursor-pointer" src="./horeka_logo.webp" alt="Logo" />

@@ -31,7 +31,7 @@ const About = () => {
             restaurants and cafes.
           </h1>
           <div className="flex flex-col lg:flex-row gap-5">
-            <img src="/RATE.png" className=" rounded-[3em] w-[40em]" alt="" />
+            <img src="/RATE.webp" className=" rounded-[3em] w-[40em]" alt="RATE: reliability, affordability, transparency, empathy" />
             <div className="justify-center flex flex-col">
               <div className="ml-6 self-center lg:self-auto">
                 <ul className=" text-lg mb-3 text-left list-decimal">

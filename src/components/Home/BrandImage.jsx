@@ -15,42 +15,42 @@ const BrandImage = () => {
             <img
               className=" max-w-[50%] my-[20px]  "
               src="/brand-images/khansaheb.webp"
-              alt=""
+              alt="Khan Saheb"
             />
           </div>
           <div className="brand-img">
             <img
               className=" max-w-[50%] my-[20px]  "
               src="/brand-images/dailysushi.webp"
-              alt=""
+              alt="Daily Sushi"
             />
           </div>
           <div className="brand-img">
             <img
               className=" max-w-[50%] my-[20px]  "
               src="/brand-images/indiqube.webp"
-              alt=""
+              alt="Indiqube"
             />
           </div>
           <div className="brand-img">
             <img
               className=" max-w-[50%] my-[20px]  "
               src="/brand-images/basilpizza.webp"
-              alt=""
+              alt="Basil Pizza"
             />
           </div>
           <div className="brand-img">
             <img
               className=" max-w-[50%] my-[20px]  "
               src="/brand-images/lapinoz.webp"
-              alt=""
+              alt="La Pinoz"
             />
           </div>
           <div className="brand-img">
             <img
               className=" max-w-[50%] my-[20px]  "
               src="/brand-images/mumbaixpress.webp"
-              alt=""
+              alt="Mumbai Xpress"
             />
           </div>
         </div>

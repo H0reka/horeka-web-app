@@ -16,7 +16,7 @@ const Footer = () => {
             <img
               src="https://assets-global.website-files.com/6489e6bc11d0980ebc5de881/64c00dab5a1b4c30a90b57e5_horeka..png"
               width="100"
-              alt=""
+              alt="Horeka logo"
               className="footer-logo"
             />
             <p className="paragraph-2">

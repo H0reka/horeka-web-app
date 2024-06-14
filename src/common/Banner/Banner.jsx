@@ -18,6 +18,7 @@ const Banner = (props) => {
         theme: "colored",
         transition: Bounce,
         });
+
         return ;
     }
     const now = new Date();
@@ -26,6 +27,10 @@ const Banner = (props) => {
     const time = timeIST.toTimeString().split(' ')[0];
     const data = {number: phone, date: date, time: time}
     const url = "https://script.google.com/macros/s/AKfycbxo_I8kvWEwAfZd8bb5u8D2AzH7GBmkIealtE2NDyO2pdVhO0v4A6GhjHX7WWJncS5ZaQ/exec"
+    const buttonSub = document.getElementById('submit-btn');
+    buttonSub.value = "Sending Response.."
+    buttonSub.disabled = true;
+    buttonSub.classList.add('pointer-events-none');
     await fetch(url, {
       method: "POST",
       mode: "no-cors",
@@ -47,13 +52,15 @@ const Banner = (props) => {
       transition: Bounce,
       });
     setPhone('');
+    buttonSub.classList.remove('pointer-events-none')
   }
 
   return (
     <div id="cta" className="cta-section">
       <div className="w-layout-grid p-[1em] cta-grid">
         <div className="cta-content">
-          <h1 className="cta-heading">{props.heading}</h1>
+          <h1 className="text-[1.62rem] mb-8 text-cus-white">{props.heading}</h1>
+          {/* <h1 className="cta-heading">{props.heading}</h1> */}
           <div className="form-block banner-form">
             <form 
             id='phone-form'
@@ -72,6 +79,7 @@ const Banner = (props) => {
                 required
               />
               <input
+              id='submit-btn'
                 type="submit"
                 className="btn white button-space"
                 value={props.buttontxt}

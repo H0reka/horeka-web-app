@@ -102,7 +102,7 @@ const Home = () => {
       {/* Elaborate Services */}
       <ElaborateServices func={handleClick}/>
       <div className="text-center">
-        <h1 className="text-cus-brand text-base">We take full responsibility for our mistakes and are committed to resolving them effectively and decisively.</h1>
+        <h1 className="text-cus-brand text-base lg:text-[1.62rem]">We take full responsibility for our mistakes and are committed to resolving them effectively and decisively.</h1>
       </div>
       <div ref={ref} id="banner-section">
         <Banner

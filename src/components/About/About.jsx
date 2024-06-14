@@ -25,20 +25,20 @@ const About = () => {
         </div>
       </div>
       <div className="p-[18px] lg:p-8 text-center mx-2 lg:mx-14 items-center flex">
-        <div className="flex gap-4 text-left align-center flex-col lg:flex-col pt-4 items-center">
-          <h1 className="header-h1  max-w-none">
+        <div className="flex gap-8 text-left align-center flex-col lg:flex-col pt-4 items-center">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+            <img src="/RATE.webp" className=" rounded-[3em] w-[40em]" alt="RATE: reliability, affordability, transparency, empathy" />
+            <div className="justify-center flex flex-col">
+            <h1 className="text-xl lg:text-3xl text-cus-black  max-w-none">
             Horeka.app is a RATE focused raw-material vendor for tech-friendly
             restaurants and cafes.
           </h1>
-          <div className="flex flex-col lg:flex-row gap-5">
-            <img src="/RATE.webp" className=" rounded-[3em] w-[40em]" alt="RATE: reliability, affordability, transparency, empathy" />
-            <div className="justify-center flex flex-col">
               <div className="ml-6 self-center lg:self-auto">
                 <ul className=" text-lg mb-3 text-left list-decimal">
-                  <li className=" font-bold text-xl">Reliability</li>
-                  <li className=" font-bold text-xl">Affordability</li>
-                  <li className=" font-bold text-xl">Transaprency</li>
-                  <li className=" font-bold text-xl">Empathy</li>
+                  <li className=" font-bold text-lg">Reliability</li>
+                  <li className=" font-bold text-lg">Affordability</li>
+                  <li className=" font-bold text-lg">Transaprency</li>
+                  <li className=" font-bold text-lg">Empathy</li>
                 </ul>
               </div>
               <p>

@@ -11,7 +11,7 @@ import {motion} from 'framer-motion'
 const Home = () => {
   const ref = useRef(null);
   const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
+    ref.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     ReactGA.event({
       category: 'Get in Touch',
       action: 'Clicked',
@@ -36,7 +36,7 @@ const Home = () => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        element.scrollIntoView({ behavior: "smooth", block:"nearest"});
       }
     }
   }, [location]);

@@ -11,7 +11,7 @@ const Faq = () => {
     },
     {
       ques: "Why only Horeka?",
-      ans: "We agree that the restaurant business is tough. Our unique background and understanding of our customer base is what differentiates us. THROUGH OUR SERVICES, WE BELIEVE IN SERVING YOUR CUSTOMERS AS OUR CUSTOMERS. Hence targeting the specific pain points and needs allows us to align our services with the happy smiles of our customers. Join our growing list of Happy Clients.",
+      ans: "We agree that the restaurant business is tough. Our unique background and understanding of our customer base is what differentiates us.<strong>Through our services, we believe in serving your customers as our customers.</strong> Hence targeting the specific pain points and needs allows us to align our services with the happy smiles of our customers. Join our growing list of Happy Clients.",
     },
     {
       ques: "Products we offer?",

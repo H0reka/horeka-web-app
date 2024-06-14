@@ -17,19 +17,27 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h1 className="header-h1">
-              We Are Transforming B2B for hospitality beyond affordability
+              We are transforming B2B for hospitality beyond affordability
             </h1>
           </motion.div>
         </div>
       </div>
-      <div className="p-[18px] lg:p-8 text-center ">
+      <div className="p-[18px] lg:p-8 text-center mx-2 lg:mx-14 items-center flex">
         <div className="flex gap-4 text-left align-center flex-col lg:flex-row pt-4 items-center">
-          <img src="/RATE.webp" className=" rounded-[3em] w-[40em]" alt="" />
+          {/* <img src="/RATE.webp" className=" rounded-[3em] w-[40em]" alt="" /> */}
           <div>
-            <h1 className="text-cus-black text-[1.5rem] leading-[1.5]  max-w-none">
+            <h1 className="header-h1  max-w-none">
               Horeka.app is a RATE focused raw-material vendor for tech-friendly
               restaurants and cafes.
             </h1>
+            <div className="flex justify-center">
+            <ul className=" text-lg mb-3 text-left list-decimal">
+              <li className=" font-bold text-xl">Reliability</li>
+              <li className=" font-bold text-xl">Affordability</li>
+              <li className=" font-bold text-xl">Transaprency</li>
+              <li className=" font-bold text-xl">Empathy</li>
+            </ul>
+            </div>
             <p>
               HOREKA.APP is revolutionizing B2B interactions in the hotel
               industry by simplifying sourcing processes and offering value

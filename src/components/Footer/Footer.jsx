@@ -20,7 +20,7 @@ const Footer = () => {
               className="footer-logo"
             />
             <p className="paragraph-2">
-              A trust-worthy, empathetic and reliable wholesale Supplier for
+              A trust-worthy, empathetic and reliable wholesale supplier for
               restaurants, kitchens and organisations of all sizes.
             </p>
           </div>
@@ -55,31 +55,8 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="footer-legal">
-          <div className="footer-left">
+        <div className="footer-legal text-center">
             <div className="legal">Horeka Food Works LLP {currentYear}</div>
-          </div>
-          <div className="footer-right">
-            <div className="social-icon-wrap">
-              <a
-                href="https://www.linkedin.com/company/horeka-food-works-llp"
-                target="_blank"
-                className="social-link w-footer-inline-block"
-              >
-                <img
-                  src="https://assets-global.website-files.com/6489e6bc11d0980ebc5de881/6526feceb97a93f27fa01e52_linkedin.png"
-                  sizes="(max-width: 479px) 5vw, (max-width: 767px) 18px, (max-width: 991px) 2vw, 18px"
-                  alt=""
-                  className="social-icon"
-                />
-              </a>
-            </div>
-            <a
-              href="mailto:hello@horeka.app?subject=Enquiry%20from%20your%20website"
-            >
-              <div className="text-cus-slate-grey">hello@horeka.app</div>
-            </a>
-          </div>
         </div>
       </div>
     </div>

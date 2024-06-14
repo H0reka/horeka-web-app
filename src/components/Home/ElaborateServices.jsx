@@ -6,7 +6,7 @@ const ElaborateServices = (props) => {
   return (
     <div className="text-center py-[40px]">
       <LongCard
-        title="Save Money"
+        title="Save Your Money"
         content="Get bulk prices without bulky orders. Order smaller quantities of fresh, perishable goods and save. Want more savings? Choose Cash on Delivery (COD) for additional discounts!
 "
         rev="0"
@@ -15,7 +15,7 @@ const ElaborateServices = (props) => {
         func={props.func}
       />
       <LongCard
-        title="Save Time"
+        title="Save Your Time"
         content="Order in 2-clicks with our daily lists, plus receive reminders. Or, set a fixed daily quantity and relax—we'll deliver it automatically. Simplify your perishable goods ordering process with our efficient, hassle-free service.
 "
         rev="1"

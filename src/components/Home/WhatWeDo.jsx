@@ -10,7 +10,7 @@ const WhatWeDo = () => {
         </h1>
         <div className="grid grid-5 items-center text-center">
           <Card
-            title="Save Money"
+            title="Save Your Money"
             content="Order less, at bulk price. COD for extra savings."
             img="/file_2024-06-07_07.13.33.webp"
           />
@@ -18,7 +18,7 @@ const WhatWeDo = () => {
             <div className=" line"></div>
           </div>
           <Card
-            title="Save Time"
+            title="Save Your Time"
             content="Order in 2-clicks with our daily lists. OR Fix a daily quantity and forget ordering."
             img="/file_2024-06-07_07.13.21.webp"
           />

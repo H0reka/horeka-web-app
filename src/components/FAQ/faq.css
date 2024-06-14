@@ -61,7 +61,7 @@
   line-height: 1.5;
 }
 .tab-link {
-  border: 0.1px solid var(--black);
+  border: 0.1px solid var(--slate-grey);
   border-radius: 6px;
   justify-content: center;
   align-items: center;

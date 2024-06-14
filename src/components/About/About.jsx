@@ -45,7 +45,7 @@ const About = () => {
                 HOREKA.APP is revolutionizing B2B interactions in the hotel
                 industry by simplifying sourcing processes and offering value
                 beyond cost savings. It aims to become the go-to platform for
-                food-related procurement, ensuring efficiency and quality in
+                food-related procurement, ensuring efficiency & quality in
                 every transaction.
               </p>
             </div>

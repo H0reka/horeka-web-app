@@ -20,12 +20,12 @@ const Contact = () => {
               Have a question for us?&nbsp;Let us know &amp;&nbsp;we will
               respond!
             </h2>
-            <p className="text-[16px] leading-[22px] mb-8">
+            <p className="text-[16px] leading-[22px]">
               Put in your number to get in touch with our team.&nbsp;If your
               question is more urgent, you can use the information below to call
-              or email us (or come to our office if you want to scare our
-              staff).
+              or email us.
             </p>
+            <p className="text-[16px] leading-[22px] mb-8">(Or come to our office if you want to scare our staff)</p>
             <div className="grid grid-cols-1 grid-rows-4 gap-2 lg:gap-5">
               <Link to="tel:+919606150255" className="contact-method">
                 <div className="contact-icon">

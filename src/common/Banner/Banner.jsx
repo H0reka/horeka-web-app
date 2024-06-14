@@ -6,6 +6,20 @@ const Banner = (props) => {
   const [phone, setPhone] = useState('');
   const formSubmit = async (e) =>{
     e.preventDefault();
+    if(phone.length === 0 || phone.length < 10 ){
+      toast.error("Please Enter a Valid Phone Number", {
+        position: "top-right",
+        autoClose: 1500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: false,
+        progress: undefined,
+        theme: "colored",
+        transition: Bounce,
+        });
+        return ;
+    }
     const now = new Date();
     const timeIST = new Date(now.getTime());
     const date = timeIST.toISOString().split('T')[0];
@@ -29,7 +43,7 @@ const Banner = (props) => {
       pauseOnHover: false,
       draggable: false,
       progress: undefined,
-      theme: "light",
+      theme: "colored",
       transition: Bounce,
       });
     setPhone('');
@@ -67,17 +81,7 @@ const Banner = (props) => {
           </div>
         </div>
       </div>
-      <ToastContainer position="top-right"
-autoClose={1500}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss={false}
-draggable={false}
-pauseOnHover={false}
-theme="light"
-transition= {Bounce}/>
+      <ToastContainer position="top-right"/>
     </div>
   );
 };

@@ -13,9 +13,9 @@ const Home = () => {
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     ReactGA.event({
-      'category': 'Get in Touch',
-      'action': 'Clicked',
-      'label': 'Contact Button'
+      category: 'Get in Touch',
+      action: 'Clicked',
+      label: 'Contact Button'
     });
   };
   const container = {
@@ -42,9 +42,9 @@ const Home = () => {
   }, [location]);
   const handleHover = () => {
     ReactGA.event({
-      'category': 'Get in Touch',
-      'action': 'Hover',
-      'label': 'Contact Button'
+      category: 'Get in Touch',
+      action: 'Hover',
+      label: 'Contact Button'
     });
   };
   return (

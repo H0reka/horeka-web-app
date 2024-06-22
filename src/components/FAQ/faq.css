@@ -19,11 +19,11 @@
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
-  transition: 0.6s ease;
+  transition: 0.3s ease;
 }
 .plus {
   opacity: 0.5;
-  transition: 0.6s ease;
+  transition: 0.3s ease;
 }
 
 .faq-question-wrap {

@@ -3,7 +3,7 @@ import React from 'react';
 const Error= () => {
   return (
     <>
-    <div className='cus-header' >
+    <div className='mt-[10em]' >
       <h1 className='header-h1 mb-[0]'>404 Not Found</h1>
     </div>
        <div className='container px-[10px]'>

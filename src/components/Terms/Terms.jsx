@@ -1,14 +1,21 @@
 import React from "react";
 import './terms.css'
+import { motion } from "framer-motion";
 
 const Terms = () => {
   return (
-    <>
+    <motion.div  initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 1.3 }}>
       <div className="header-section">
         <div className="container-flex">
-          <div className="title-wrap-centre">
+          <motion.div className="title-wrap-centre" initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}>
             <h1 className="header-h1">Merchant Terms and Conditions</h1>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="container p-[30px] text-left">
@@ -424,7 +431,7 @@ The notices shall be deemed to be received on the date of receipt if by register
           </li>
         </ul>
       </div>
-    </>
+    </motion.div>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Navigate } from 'react-router-dom';
 
 const Error= () => {
   return (
@@ -9,6 +10,7 @@ const Error= () => {
        <div className='container px-[10px]'>
        <img src="./sad-veggies.webp" height="500em" width="500em" alt="" />
       <p>Sorry, the page you are looking for does not exist.</p>
+
        </div>
     </>
   );

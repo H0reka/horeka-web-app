@@ -1,11 +1,10 @@
 {
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/api/notFound", "dest": "/api/notFound.js" },
+    { "src": "/", "dest": "/example.js" },
     {
       "src": "/(.*)",
-      "status": 404,
-      "dest": "/api/notFound"
+      "dest": "/"
     }
   ]
 }

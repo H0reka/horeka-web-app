@@ -22,14 +22,24 @@ export default function handler(req, res) {
                         padding: 50px;
                     }
                     h1 {
-                        font-size: 2em;
+                        color: #c63;
+                        text-align: center;
+                        letter-spacing: -0.03em;
+                        margin-top: 10px;
+                        font-size: 32px;
+                        line-height: 1.2;
                     }
+                        div{
+                        text-align: center;
+                        align-items:center;}
                 </style>
             </head>
             <body>
+                <div>
                 <h1>404 - Not Found</h1>
-                <img src="/sad-veggies.webp" height="500em" width="500em" alt="Sad Veggies" />
+                <img src="/sad-veggies.webp" height="400vh" width="300vw" alt="Sad Veggies" />
                 <p>The page you are looking for does not exist.</p>
+                </div>
             </body>
             </html>
         `;

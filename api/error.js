@@ -8,22 +8,28 @@ function convertComponentToHTML() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>404 - Not Found</title>
             <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    text-align: center;
-                    padding: 50px;
-                }
-                h1 {
-                    font-size: 2em;
-                }
+                .header-h1 {
+  color: var(--brand);
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin-top: 10px;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom:0;
+}
+  .image-error{
+  height:500em;
+  width:500em;
+  }
+
             </style>
         </head>
         <body>
-            <div class='mt-[10em]'>
-                <h1 class='header-h1 mb-[0]'>404 - Not Found</h1>
+            <div>
+                <h1 class='header-h1>404 - Not Found</h1>
             </div>
             <div class='container px-[10px]'>
-                <img src="./sad-veggies.webp" height="500em" width="500em" alt="" />
+                <img src="./sad-veggies.webp" class="image-error" alt="" />
                 <p>Sorry, the page you are looking for does not exist.</p>
             </div>
         </body>

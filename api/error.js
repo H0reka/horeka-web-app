@@ -19,8 +19,8 @@ export default function handler(req, res) {
                     body {
                         font-family: Arial, sans-serif;
                         text-align: center;
-                        padding: 50px;
                         overflow-x:hidden;
+
                     }
                     h1 {
                         color: #c63;
@@ -35,14 +35,37 @@ export default function handler(req, res) {
                         flex-direction: column;
                         text-align: center;
                         align-items:center;}
+                        a{
+                            text-decoration: none;
+                            color: #c63;
+                        }
+                        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  width: 60vw;
+}
+                        @media screen and (max-width: 463px){
+                            .outer-div{
+                                padding: 20vh;
+                            }
+                            .center{
+                                height: 50vh;
+                                width: 100vw;
+                            }
+                        }
+
                 </style>
             </head>
             <body>
-                <div>
-                <h1>404 - Not Found</h1>
-                <img src="/sad-veggies.webp" height="400vh" width="400vw" alt="Sad Veggies" />
-                <p>The page you are looking for does not exist.</p>
-                Return to <a href="https://www.horeka.app">Horeka.app Home</a>
+                <div class="outer-div">
+                    <div>
+                        <h1>404 - Not Found</h1>
+                        <img src="/sad-veggies.webp" class="center" alt="Sad Veggies" />
+                        <p>The page you are looking for does not exist.</p>
+                        Return to <a href="https://www.horeka.app">Horeka.app Home</a>
+                        </div>
                 </div>
             </body>
             </html>

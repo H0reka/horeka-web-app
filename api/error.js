@@ -20,6 +20,7 @@ export default function handler(req, res) {
                         font-family: Arial, sans-serif;
                         text-align: center;
                         padding: 50px;
+                        overflow-x:hidden;
                     }
                     h1 {
                         color: #c63;
@@ -41,6 +42,7 @@ export default function handler(req, res) {
                 <h1>404 - Not Found</h1>
                 <img src="/sad-veggies.webp" height="400vh" width="400vw" alt="Sad Veggies" />
                 <p>The page you are looking for does not exist.</p>
+                Return to <a href="https://www.horeka.app">Horeka.app Home</a>
                 </div>
             </body>
             </html>

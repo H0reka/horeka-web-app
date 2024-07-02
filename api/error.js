@@ -30,6 +30,8 @@ export default function handler(req, res) {
                         line-height: 1.2;
                     }
                         div{
+                        display: flex;
+                        flex-direction: column;
                         text-align: center;
                         align-items:center;}
                 </style>
@@ -37,7 +39,7 @@ export default function handler(req, res) {
             <body>
                 <div>
                 <h1>404 - Not Found</h1>
-                <img src="/sad-veggies.webp" height="400vh" width="300vw" alt="Sad Veggies" />
+                <img src="/sad-veggies.webp" height="400vh" width="400vw" alt="Sad Veggies" />
                 <p>The page you are looking for does not exist.</p>
                 </div>
             </body>

@@ -1,7 +1,7 @@
 {
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/api/example", "dest": "/api/example.js" },
+    { "src": "/api/error", "dest": "/api/error.js" },
     {
       "src": "/",
       "dest": "/",
@@ -35,7 +35,7 @@
     {
       "src": "/(.*)",
       "status": 404,
-      "dest": "/api/example"
+      "dest": "/api/error"
     }
   ]
 }

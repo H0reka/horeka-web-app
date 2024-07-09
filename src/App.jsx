@@ -13,9 +13,7 @@ import Float from './common/Float/Float';
 import ScrollToTop from './ScrollToTop';
 import ReactGA from 'react-ga';
 import Terms from './components/Terms/Terms';
-// import NotFound from './components/NotFound/NotFound'; // Import the NotFound component
 import './App.css';
-import Error from './common/Error/Error';
 
 const TRACKING_ID = "G-7EZGHYSE87";
 ReactGA.initialize(TRACKING_ID);
@@ -34,7 +32,6 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/terms" element={<Terms />} />
-          {/* <Route path="*" element={<Error />} /> */}
         </Routes>
         <Bottom />
         <Footer />

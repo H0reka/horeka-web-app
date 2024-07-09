@@ -419,6 +419,7 @@ img {
 .grid-5 {
   grid-template-rows: auto;
   grid-template-columns: 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr;
+  gap: 1em;
 }
 
 .white-link {

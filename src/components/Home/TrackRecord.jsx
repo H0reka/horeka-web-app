@@ -6,7 +6,7 @@ import VisibilitySensor from "react-visibility-sensor";
 const TrackRecord = () => {
   return (
     <div className=" text-center py-[40px]">
-        <h1 className="text-[5vh] text-cus-brand  max-w-[100%] mb-14 ">
+        <h1 className="text-[2.1em] text-cus-brand  max-w-[100%] mb-14 ">
           Our Track Record
         </h1>
         <div className="grid-3-tests">

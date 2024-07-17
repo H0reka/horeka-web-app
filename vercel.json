@@ -28,6 +28,11 @@
       "dest": "/",
       "status": 200
     },
+     {
+      "src": "/sitemap.xml",
+      "dest": "/public/sitemap.xml",
+      "status": 200
+    },
     {
       "src": "/products",
       "dest": "/",

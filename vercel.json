@@ -1,4 +1,10 @@
 {
+   "rewrites": [
+    {
+      "source": "/sitemap.xml",
+      "destination": "/public/sitemap.xml"
+    }
+  ],
   "routes": [
     { "handle": "filesystem" },
     { "src": "/api/error", "dest": "/api/error.js" },

@@ -38,6 +38,11 @@
       "status": 200
     },
     {
+      "src": "/privacy",
+      "dest": "/",
+      "status": 200
+    },
+    {
       "src": "/(.*)",
       "status": 404,
       "dest": "/api/error"

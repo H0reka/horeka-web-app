@@ -47,11 +47,14 @@ const Footer = () => {
             className="footer-column"
           >
             <div className="title">COMPANY</div>
+            <Link to="/faq" className="footer-link">
+              FAQ
+            </Link>
             <Link to="/terms" className="footer-link">
               Terms
             </Link>
-            <Link to="/faq" className="footer-link">
-              FAQ
+            <Link to="/privacy" className="footer-link">
+              Privacy
             </Link>
           </div>
         </div>

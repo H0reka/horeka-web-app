@@ -13,6 +13,7 @@ import Float from './common/Float/Float';
 import ScrollToTop from './ScrollToTop';
 import ReactGA from 'react-ga';
 import Terms from './components/Terms/Terms';
+import Privacy from './components/Privacy/Privacy';
 import './App.css';
 
 const TRACKING_ID = "G-7EZGHYSE87";
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/terms" element={<Terms />} />
+          <Route exact path="/privacy" element={<Privacy />} />
         </Routes>
         <Bottom />
         <Footer />

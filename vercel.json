@@ -38,7 +38,7 @@
       "status": 200
     },
     {
-      "src": "/privacy",
+      "src": "/privacy(/.*)?",
       "dest": "/",
       "status": 200
     },

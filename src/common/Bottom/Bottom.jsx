@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Bottom = () => {
 
   const scroll = () => {
-    const section = document.getElementById('banner-section');
+    const section = document.getElementById('#banner-section');
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block:"nearest" });
     }

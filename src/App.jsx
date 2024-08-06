@@ -20,6 +20,13 @@ const TRACKING_ID = "G-7EZGHYSE87";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  const location = window.location.href.split('#');
+  const scroll = () => {
+    const section = document.getElementById('banner-section');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block:"nearest" });
+    }
+  };
   return (
     <div className='App'>
       <Router>
